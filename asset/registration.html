@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> registration page </title>
+</head>
+<body>
+    <!-- start navbar section in top  -->
+    <header class="navbar">
+        <div class="row">
+            <div class="row_right">
+                    <ul>
+                        <li> <a href="../index.html"> home</a></li>
+                        <li><a href="./read_map.html"> road map </a></li>
+                        <li> <a href="#"> registration</a> </li>
+                        <li ><a href="https://www.iti.gov.eg/"> contact us </a> </li>
+                    </ul>
+            </div> 
+            <div class="row_left">
+                <img src="./imgs/ITI_logo.png" alt=" sorry " >
+            </div>
+        </div>
+    </header>
+   <!-- end navbar  -->
+   <!-- start section one  -->
+   <section class="reg_one">
+    <form action="../index.html" method="post">
+        <div class="text_top">
+            <h3> register - create account</h3>
+        </div>
+        <div class="content">
+            <h4> field marked with  <span> * </span> are field </h4> 
+        </div>
+        <div class="content_two">
+            <div class="left"> 
+                <label for="name" > user name </label>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="enter your name" required>
+            </div>
+        </div>
+        <div class="content_three">
+            <div class="left">
+                <label for="email" > user email  </label>
+            </div>
+            <div class="right">
+                <input type="email" placeholder="enter your email ">
+            </div>
+        </div>
+        <div class="content_four">
+            <div class="left">
+                <label for="text" > user phone </label>
+            </div>
+            <div class="right">
+                <table class="tb">
+                    <tr>
+                        <th> country </th>
+                        <th> city </th>
+                        <th> phone </th>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="content_five">
+            <div class="left">
+                <label for="number"> mobile phone</label>
+            </div>
+            <div class="right">
+                <input type="number" name="phone" placeholder="your phone ">
+            </div>
+        </div>
+        <div class="content_six">
+            <div class="left">
+                <label for="mes"> your massage</label>
+            </div>
+            <div class="right">
+                <textarea name="message"  cols="30" rows="5" placeholder="enter your message">  </textarea>
+            </div>
+        </div>
+        <div class="content_seven">
+            <div class="left">
+                <label for="country"> country </label>
+            </div>
+            <div class="right">
+                <select name="country" id=" country ">
+                    <option value="one"> ---- select one ----- </option>
+                    <option value="two"> alex </option>
+                    <option value="three"> cairo</option>
+                    <option value="four"> alex </option>
+                </select>
+            </div>
+        </div>
+        <div class="content_eight">
+            <div class="left">
+                <label for="password"> password </label>
+            </div>
+            <div class="right">
+                <input type="password" name="password" placeholder="your password" required>
+            </div>
+        </div>
+        <center>
+            <input type="checkbox" name="check"  required>
+            <span> i agree </span>
+        </center>
+        <center class="btn">
+            <input type="submit" value="continue >>>"> 
+            <input type="reset" value="reset">
+        </center>
+    </form>
+
+   </section>
+   <!-- end section one  -->
+   <!-- start sec two  -->
+   <!-- start footer  -->
+   <footer>
+    <hr>
+    <center>
+      <span> copyright &#64; 2022 by hagar hassan  </span>
+    </center>
+</footer>
+<!-- end footer  -->
+    
+</body>
+</html>
